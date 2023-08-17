@@ -14,7 +14,8 @@
     </style>
 </head>
 <body>
-    <a href="./about_us.html">about us</a>    <a href="./contact.html">contact us</a> 
+    <a href="./about_us.html">about us</a>    
+    <a href="./contact.html">contact us</a> 
     <!-- inline style - dont use! -->
     <div>
         <h1 style="color: green;">Lets Talk About Cars </h1>
@@ -26,7 +27,7 @@
     <!-- <center></center> -->
     <a href="#chev">Chevrolet</a><br><br>
     <hr width="50%" height="20px"> <br><br>
-    <p><b>Lorem</b> ipsum dolor <i>sit</i> amet consectetur adipisicing elit. Deserunt doloribus 3 x 10<sup>3</sup> numquam ut earum blanditiis, maiores nihil! <span style="color: blue;">Accusamus rem</span> , dolores voluptates, esse dolorum dolorem animi consequuntur magnam iusto, inventore iste officiis!
+    <p><b>Lorem</b> ipsum dolor <i>sit</i> amet consectetur adipisicing elit. Deserunt doloribus 3 x 10<sup>3</sup> numquam ut earum blanditiis, maiores nihil! <span id="nike">Accusamus rem</span> , dolores voluptates, esse dolorum dolorem animi consequuntur magnam iusto, inventore iste officiis!
     <em>Temporibus ducimus</em> sint incidunt nam exercitationem mollitia praesentium, eius aliquid autem saepe repudiandae harum cumque pariatur? At nisi assumenda delectus ipsam, iure omnis! Ipsum odio animi assumenda laborum quasi sequi.
     Pariatur quis quisquam accusantium fuga praesentium non recusandae fugit atque saepe! Velit architecto voluptatum ea. Saepe, in molestiae. Consequuntur alias ipsum accusamus sit, accusantium repellat nemo sunt magni eligendi aliquam.
     Dignissimos odio, unde nisi ipsum officia voluptas reiciendis, natus similique autem eum molestiae hic dolores cumque. Hic expedita fugiat, consectetur repellendus rem nulla aperiam adipisci praesentium excepturi officia cupiditate. Voluptate.
@@ -53,7 +54,7 @@
     Dignissimos enim possimus ipsa porro, aspernatur exercitationem, quod cupiditate voluptatem natus nemo sequi corrupti quisquam sunt corporis odio earum facere. Dolorum, sint quaerat sapiente mollitia eum exercitationem at recusandae iure.</p>
     
     <hr>
-    <h2 style="color: blue">Car Makes</h2>
+    <h2 id="makes">Car Makes</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reprehenderit nostrum porro minima, laboriosam praesentium sed officia facere delectus illum adipisci ut perspiciatis ea velit cupiditate cumque ducimus repellat suscipit!</p>
     
     <!-- <video src="https://www.toyota.com/content/dam/toyota/homepage/tdr-marquee/videos/SSTY8107000H_2023_TOYOTA_Rav4_CutCrop_1920x796_FINAL.mp4?wid=1439" controls width="300px" height="300px">
@@ -65,10 +66,28 @@
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam voluptatum totam hic sit fuga labore sint maxime non itaque magnam recusandae ipsa ut voluptate, corporis, eaque nobis molestiae, quod ea?</p>
     <h3 >Toyota</h3>
     <!-- unordered list -->
-    <ul type="square">  size = 2em
-        <li>Camry</li>   size = 3em
+    <!-- <ul type="square">  
+        <li class="models">Camry</li>   
+        <li class="models">Avalon</li>
+        <li class="order">Highlander
+            <ol>
+                <li>Highlander (gas)</li>
+                <li>Highlander (pms)</li>
+            </ol>
+        </li>
+        <li class="models">Corrola</li>
+        <li class="models">Sienna</li>
+    </ul> -->
+
+    <ul type="square">  
+        <li>Camry</li>   
         <li>Avalon</li>
-        <li>Highlander</li>
+        <li>Highlander
+            <ol>
+                <li>Highlander (gas)</li>
+                <li>Highlander (pms)</li>
+            </ol>
+        </li>
         <li>Corrola</li>
         <li>Sienna</li>
     </ul>
@@ -76,11 +95,11 @@
     <!-- ordered list -->
     <p>These models are ranked in order of number of sales as follows:</p>
     <ol type="a">
-        <li>Corrola</li>
-        <li>Sienna</li>
-        <li>Camry</li>
-        <li>Highlander</li>
-        <li>Avalon</li>
+        <li class="order">Corrola</li>
+        <li class="order">Sienna</li>
+        <li class="order">Camry</li>
+        <li class="order">Highlander</li>
+        <li class="order">Avalon</li>
     </ol>
     <p>Lorem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ipsum dolor sit, amet consectetur adipisicing elit. Tempora magni a facere ullam. Quas doloremque, id vitae molestiae doloribus accusamus ducimus, repudiandae a harum adipisci asperiores recusandae, culpa mollitia quasi.</p>
     <code>Lorem ipsum                                                               dolor sit amet consectetur adipisicing elit. Tempore, officiis maxime necessitatibus expedita corporis accusamus! Quas quia fugit quibusdam assumenda adipisci culpa, accusantium ipsa saepe cupiditate debitis minima, facere hic.</code>

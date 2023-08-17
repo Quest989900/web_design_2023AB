@@ -1,0 +1,19 @@
+/* body p {
+    color: red;
+}
+
+h1 + p {
+    color: blue;
+}
+#p2 + p {
+    color : green
+}
+
+h1::first-letter {
+    font-size: 50px;
+    color: orange
+}
+
+h1::after {
+    content: "%%%%"
+} */

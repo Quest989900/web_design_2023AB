@@ -1,9 +1,11 @@
-/* selector {
-    property: value;
-} */
+
+* {
+    margin: 5px
+}
+
 body {
     color: black;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 
@@ -11,11 +13,23 @@ p {
     color: blue;
     font-size: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: 300;
+    /* margin: 20px; */
 }
 div {
     width: 50%
 }
+
+/* class selector */
+.models {
+    color: blue;
+    font-size: 1rem;
+}
+
+.order {
+    color: orange
+}
+
 /* h1 {
     width: 50%;
 } */
@@ -23,3 +37,14 @@ div {
 li {
     color: green
 }
+
+/* id selector */
+#nike, #makes {
+    color: red;
+}
+
+ul > li{
+    font-size: 30px;
+}
+
+

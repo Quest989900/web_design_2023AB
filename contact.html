@@ -5,8 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./css/cars_contact.css">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        body p {
+            color: red;
+        }
+
+        h1 + p {
+            color: blue;
+        }
+        #p2 + p {
+            color : green
+        }
+
+        h1::first-letter {
+            font-size: 50px;
+            color: orange
+        }
+
+        h1::after {
+            content: "%%%%"
+        }
+
+        div p:first-of-type {
+            color: aquamarine;
+        }
+
+        div p:nth-of-type(1) {
+            font-size: 40px;
+        }
+    </style>
 </head>
 <body>
-    Contact Us here
+    <p>I am the first child though im contrived</p>
+    <header> This is a header
+        <div> This is inside the div
+            <h1>This is a level 1 heading</h1>
+            <h2>this ia n h2</h2>
+            <p>These are all inside a paragraph</p>            
+            <p>These are all inside a paragraph</p>
+            <p>These are all inside a paragraph</p>
+        </div>
+    </header>
 </body>
 </html>
