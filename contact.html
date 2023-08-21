@@ -8,10 +8,12 @@
     <style>
         body {
             background-color: black;
+            margin: 10px;
+           
         }
 
         body p {
-            color: red;
+            color: white;
         }
 
         h1 + p {
@@ -35,20 +37,96 @@
         }
 
         div p:nth-of-type(1) {
-            font-size: 40px;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace; 
+            text-align: center;
         }
+        h1 {
+            color: white;
+            text-align: center;
+            text-decoration:none;
+            text-transform: uppercase;
+            letter-spacing: 3px
+        }
+        a {
+            text-decoration:none;
+            text-align: center;
+            
+            
+        }
+
+        div p:nth-of-type(1) {
+            line-height: 2;
+            letter-spacing: 2px;
+            text-align: justify;
+            border-top: 2px solid blue;
+            margin-top: 10px;
+        } 
+        section {
+            width: 70%;            
+            margin: 0 auto;
+            /* border-top: 2px ;
+            border-color: white;
+            border-style: solid; */
+            border: 2px solid white;
+            border-radius: 15px;
+            /* padding-left: 2rem;
+            padding-right: 2rem; */
+            padding: 0px 10px;
+            
+        }   
+
+        img {
+            /* border: 2px solid red; */
+            border-radius: 50%;  
+            position: relative;
+            bottom: 0px;
+            right: 0px;  
+        }
+
+        h1 {
+            width: 90%;
+            border-bottom: 2px solid red;     
+            margin-bottom: 10px;        
+            
+        }
+
+        section + div {
+            width: 100px;
+            height: 100px;
+            border: 2px solid red;
+            background-image: url('https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTirTLZGJkc8CsFcR-FTUBvCuK0oW4Qlbi5zSZqfjdo8HBf8xWkrYv9M2QP0Ekpc9HGXe8l39aQZx95Od8');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
     </style>
 </head>
 <body>
-    <p>I am the first child though im contrived</p>
-    <header> This is a header
-        <div> This is inside the div
-            <h1>This is a level 1 heading</h1>
-            <h2>this ia n h2</h2>
-            <p>These are all inside a paragraph</p>            
-            <p>These are all inside a paragraph</p>
-            <p>These are all inside a paragraph</p>
-        </div>
-    </header>
+    <img src="https://www.codewizardshq.com/wp-content/themes/codewizards/assets/images/laptop-notification.png" width="50px" height="50px" alt="coding for kids blog newsletter signup" class="lazyloaded" data-ll-status="loaded">
+    <a href="https://google.com">Google</a>
+    <section>        
+        <header> This is a header
+            <div> This is inside the div
+                <h1>this is a level 1 heading</h1>
+                <!-- <h2>this ia n h2</h2> -->
+                <!-- <p>These are all inside a paragraph</p>            
+                <p>These are all inside a paragraph</p> -->
+                <p>These are all inside a paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ex non soluta tempora? Aut, facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quia praesentium nihil, nulla vero accusamus eveniet dolor inventore aliquid fugit, soluta recusandae iure iusto tempora maxime quos libero! Ut, deleniti. Expedita excepturi, cupiditate neque quisquam asperiores quam molestiae maxime repellat minus dolores tenetur dicta quia?</p>
+            </div>
+        </header>
+    </section>
+
+    <div>
+        
+    </div>
+    
+
+    
 </body>
 </html>
+
+
+
+
+<!-- <img src="https://www.codewizardshq.com/wp-content/themes/codewizards/assets/images/laptop-notification.png" width="371px" height="295px" alt="coding for kids blog newsletter signup" class="lazyloaded" data-ll-status="loaded"> -->
