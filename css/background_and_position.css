@@ -9,6 +9,8 @@ header {
     background-color: aquamarine;
     margin-bottom: 3px;
     display: inline-block;
+    position: fixed;
+    
     
 }
 
@@ -37,14 +39,17 @@ section {
     width: 200px;
     height: 200px;
     margin-bottom: 2rem;
-    background-image: linear-gradient(to top right, blue 15px, red, violet, #800020);
+    background-image: linear-gradient(45deg, green, yellow)
+    
 }
 
 main {
     width: 300px;
     height: 300px;
-    background-color: antiquewhite;
-    position: relative
+    background-color: antiquewhite; 
+    position: relative;  
+    margin-bottom: 2rem;
+    
 }
 
 #div1, #div2 {
@@ -52,12 +57,42 @@ main {
     height: 100px;
 }
 #div1 {
-    background-color: yellow;
+    background-color: yellow; 
+    
 }
 #div2  {
     background-color: #800020;
-    position: absolute;
+    position: sticky;
     bottom: 20px;
-    right: 20px; 
+    right: 20px;        
+    
 }
 
+/* z-index */
+
+#main2 {
+    background: burlywood;
+    margin-top: 2rem;
+    position: relative;
+    /* z-index: 3; */
+}
+
+#div3 {
+    width: 200px;
+    height: 100px;
+    background: yellow;
+    position: relative;
+    z-index: 3;
+}
+
+#div4 {
+    width: 100px;
+    height: 200px;
+    background: yellowgreen;
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    
+    
+
+}
