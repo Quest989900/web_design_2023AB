@@ -47,4 +47,22 @@ ul > li{
     font-size: 30px;
 }
 
+/* @media screen and (min-width: 590px) and (max-width:890px) {
+    #p-media {
+        display:none;
+    }
 
+    #img-media {
+        width: 500px;
+    }
+} */
+
+@media screen and (590px<= width <=890px) {
+    #yinka {
+        display:none;
+    }
+
+    #img-media {
+        width: 500px;
+    }
+}

@@ -1,0 +1,83 @@
+
+
+/* div {
+    border: 2px solid #c1c1c1;
+} */
+
+h2 {
+    font-size: 70px;
+    background: -webkit-linear-gradient(yellow 50%, red );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/* #div1 {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    box-shadow: 2px 5px 2px red
+} */
+
+/* section {
+    display: grid;    
+    grid-template: "header header header" 100px
+                    "aside1 main aside2" 400px
+                    "section section section" 200px/20% 65% 15%;
+
+} */
+
+section {
+    display: grid;    
+    grid-template-areas: "header header header" 100px
+                    "aside1 main aside2" 200px
+                    "aside1 main aside3" 200px
+                    "section section section" 200px/20% 65% 15%;
+
+}
+
+/* section {
+    display: grid;    
+    grid-template-areas: "header header header" 
+                    "aside1 main aside2" 
+                    "aside1 main aside3" 
+                    "section section section";
+    grid-template-columns: 20% 65% 15%;
+    grid-template-rows: 100px 200px 200px 200px;
+
+} */
+
+#div1 {
+    grid-area: header;
+    background-color: aqua;
+
+}
+#div2 {
+    grid-area: aside1;
+    background-color: aquamarine;
+}
+#div3 {
+    grid-area: main;
+    background-color: blanchedalmond;
+}
+#div4 {
+    grid-area: aside2;
+    background-color: #999999;
+    margin-bottom: 5px;
+    /* grid-column: 5/6; */
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px; */
+}
+#div6 {
+    grid-area: section;
+    background-color:brown;
+}
+#div5 {
+    grid-area: aside3;
+    background-color: #999;
+}
+/* #div4 div{
+    background-color: rgb(255, 0, 230);
+    
+} */

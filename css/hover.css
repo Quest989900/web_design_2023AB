@@ -1,0 +1,47 @@
+.a{
+ 
+text-align: center;
+position: absolute;
+top: 200px;
+left: 40%;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+button {
+    background-color: #3bb75e;
+    color: black;  
+    transition: ease-in-out 0.3s all;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    box-shadow: 3px 3px 5px;
+}
+
+button:hover {
+    /* 0123456789ABCDEF     R-G-B*/
+    background-color: #ff00f7;
+    color: rgba(78,100,90,0.7);
+    cursor: pointer;
+    transition-duration: 1000ms;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+h1 {
+    font-size: 75px;
+    background-image: linear-gradient(to right, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;     
+    
+}
